@@ -1,0 +1,73 @@
+/**
+ * \file VcuComm_Types.h
+ * \copyright UDAN Co.,Ltd. *
+ *
+ * \brief 整车通信类型定义头文件.
+ *
+ * * \par 修订历史:
+ * | 版本号 | 修订日志 | 修改人 | 修订时间 |
+ * | :--- | :--- | :--- | :--- |
+ * | 0.1 | 初始版本, 完成讨论部分的定义. | UD00004 | 20170316 |
+ */
+
+/**
+ * \addtogroup VcuComm 整车通信
+ * \{
+ */
+
+
+#ifndef VCUCOMM_TYPES_H_
+#define VCUCOMM_TYPES_H_
+
+/**
+ * \brief 整车通信IPdu类型定义
+ * \notes 发送报文优先
+ */
+typedef enum _VcuComm_IPduType{
+    //TX IPDU
+    VCUCOMM_TX_IPDU_START = 0,
+    VCUCOMM_TX_IPDU_MSG_0x1801FFF4 = VCUCOMM_TX_IPDU_START, /**< 整车通信发送0x1801FFF4报文IPdu */
+    VCUCOMM_TX_IPDU_MSG_0x1802FFF4 = 1, /**< 整车通信发送0x1802FFF4报文IPdu */
+    VCUCOMM_TX_IPDU_MSG_0x1803FFF4 = 2, /**< 整车通信发送0x1803FFF4报文IPdu */
+    VCUCOMM_TX_IPDU_MSG_0x1804FFF4 = 3, /**< 整车通信发送0x1804FFF4报文IPdu */
+    VCUCOMM_TX_IPDU_MSG_0x1807FFF4 = 4, /**< 整车通信发送0x1807FFF4报文IPdu */
+    VCUCOMM_TX_IPDU_MSG_0x1801D2F4 = 5, /**< 整车通信发送0x1801D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x1802D2F4 = 6, /**< 整车通信发送0x1802D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x1803D2F4 = 7, /**< 整车通信发送0x1803D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x1804D2F4 = 8, /**< 整车通信发送0x1804D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x1805D2F4 = 9, /**< 整车通信发送0x1805D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x1806D2F4 = 10, /**< 整车通信发送0x1806D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x1807D2F4 = 11, /**< 整车通信发送0x1807D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x1808D2F4 = 12, /**< 整车通信发送0x1808D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x1809D2F4 = 13, /**< 整车通信发送0x1809D2F4报文IPdu*/
+    VCUCOMM_TX_IPDU_MSG_0x180AD2F4 = 14, /**< 整车通信发送0x180AD2F4报文IPdu */
+    VCUCOMM_TX_IPDU_MSG_0x1850D2F4 = 15, /**< 整车通信发送0x1850D2F4报文IPdu */
+    VCUCOMM_TX_IPDU_STOP = VCUCOMM_TX_IPDU_MSG_0x1850D2F4,
+
+    //RX IPDU
+    VCUCOMM_RX_IPDU_START = 16,
+    VCUCOMM_RX_IPDU_MSG_0x12345678 = VCUCOMM_RX_IPDU_START, /**< 整车通信接收0x12345678报文IPdu */
+    VCUCOMM_RX_IPDU_STOP = VCUCOMM_RX_IPDU_MSG_0x12345678,
+
+    VCUCOMM_IPDU_INVALID = 0xFF, /**< 无效IPDU */
+}VcuComm_IPduType;
+
+
+typedef enum _VcuComm_StageType{
+    VCUCOMM_STAGE_IDLE = 0, /**< 空闲状态 */
+
+    VCUCOMM_STAGE_START = 1,
+    VCUCOMM_STAGE_STAGE1 = VCUCOMM_STAGE_START, /**< 整车通信 */
+    VCUCOMM_STAGE_STOP = VCUCOMM_STAGE_STAGE1,
+
+    VCUCOMM_STAGE_MAX = 2
+}VcuComm_StageType;
+
+
+#endif
+
+
+
+/**
+ * \}
+ */

@@ -1,0 +1,530 @@
+{
+    "Diagnosis": [
+        {
+            "name": "充电单体电压高",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [3.5, 3.4, 5.0, 5.0],
+                [3.6, 3.5, 5.0, 5.0],
+                [3.7, 3.6, 5.0, 5.0],
+                [3.8, 3.7, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电单体电压高",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [3.5, 3.4, 5.0, 5.0],
+                [3.6, 3.5, 5.0, 5.0],
+                [3.7, 3.6, 5.0, 5.0],
+                [3.8, 3.7, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电单体电压低",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [2.9, 3.0, 5.0, 5.0],
+                [2.8, 2.9, 5.0, 5.0],
+                [2.7, 2.8, 5.0, 5.0],
+                [2.6, 2.7, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电单体电压低",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [2.9, 3.0, 5.0, 5.0],
+                [2.8, 2.9, 5.0, 5.0],
+                [2.7, 2.8, 5.0, 5.0],
+                [2.6, 2.7, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电总压高",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [84, 81.6, 5.0, 5.0],
+                [86.4, 84, 5.0, 5.0],
+                [88.8, 86.4, 5.0, 5.0],
+                [91.2, 88.8, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电总压高",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [84, 81.6, 5.0, 5.0],
+                [86.4, 84, 5.0, 5.0],
+                [88.8, 86.4, 5.0, 5.0],
+                [91.2, 88.8, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电总压低",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [69.6, 72.0, 5.0, 5.0],
+                [67.2, 69.6, 5.0, 5.0],
+                [64.8, 67.2, 5.0, 5.0],
+                [62.4, 64.8, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电总压低",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [69.6, 72.0, 5.0, 5.0],
+                [67.2, 69.6, 5.0, 5.0],
+                [64.8, 67.2, 5.0, 5.0],
+                [62.4, 64.8, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电单体压差",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [0.03, 0.02, 5.0, 5.0],
+                [0.04, 0.03, 5.0, 5.0],
+                [0.05, 0.04, 5.0, 5.0],
+                [0.06, 0.05, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电单体压差",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [0.10, 0.06, 5.0, 5.0],
+                [0.15, 0.10, 5.0, 5.0],
+                [0.20, 0.15, 5.0, 5.0],
+                [0.25, 0.20, 5.0, 5.0]
+            ]
+        },{
+            "name": "充电总压压差",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [15.0, 10.0, 5.0, 5.0],
+                [20.0, 15.0, 5.0, 5.0],
+                [25.0, 20.0, 5.0, 5.0],
+                [30.0, 25.0, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电总压压差",
+            "levels_comment": "配置格式 [触发阈值(v), 释放阈值(v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [30.0, 20.0, 5.0, 5.0],
+                [40.0, 30.0, 5.0, 5.0],
+                [50.0, 40.0, 5.0, 5.0],
+                [60.0, 50.0, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电高温",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [50.0, 45.0, 5.0, 5.0],
+                [60.0, 50.0, 5.0, 5.0],
+                [65.0, 60.0, 5.0, 5.0],
+                [70.0, 65.0, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电高温",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [50, 45, 5.0, 5.0],
+                [60, 50, 5.0, 5.0],
+                [65, 60, 5.0, 5.0],
+                [70, 65, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电低温",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [0, 5, 5.0, 5.0],
+                [-10, 0, 5.0, 5.0],
+                [-20, -10, 5.0, 5.0],
+                [-25, -20, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电低温",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [0, 5, 5.0, 5.0],
+                [-10, 0, 5.0, 5.0],
+                [-20, -10, 5.0, 5.0],
+                [-25, -20, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电温差",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [7, 5, 5.0, 5.0],
+                [10, 7, 5.0, 5.0],
+                [15, 10, 5.0, 5.0],
+                [20, 15, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电温差",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [10, 7, 5.0, 5.0],
+                [15, 10, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [25, 20, 5.0, 5.0]
+            ]
+        }, {
+            "name": "快充过流",
+            "levels_comment": "配置格式 [触发阈值(A), 释放阈值(A), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [100, 80, 5.0, 5.0],
+                [120, 100, 5.0, 5.0],
+                [150, 120, 5.0, 5.0],
+                [180, 150, 5.0, 5.0]
+            ]
+        }, {
+            "name": "慢充过流",
+            "levels_comment": "配置格式 [触发阈值(A), 释放阈值(A), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [60, 50, 5.0, 5.0],
+                [70, 60, 5.0, 5.0],
+                [80, 70, 5.0, 5.0],
+                [90, 80, 5.0, 5.0]
+            ]
+        }, {
+            "name": "回馈过流",
+            "levels_comment": "配置格式 [触发阈值(A), 释放阈值(A), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [100, 80, 5.0, 5.0],
+                [120, 100, 5.0, 5.0],
+                [150, 120, 5.0, 5.0],
+                [180, 150, 5.0, 5.0]
+            ]
+        }, {
+            "name": "持续放电过流",
+            "levels_comment": "配置格式 [触发阈值(A), 释放阈值(A), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [100, 80, 5.0, 5.0],
+                [120, 100, 5.0, 5.0],
+                [150, 120, 5.0, 5.0],
+                [180, 150, 5.0, 5.0]
+            ]
+        }, {
+            "name": "瞬时放电过流",
+            "levels_comment": "配置格式 [触发阈值(A), 释放阈值(A), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [200, 150, 5.0, 5.0],
+                [250, 200, 5.0, 5.0],
+                [300, 250, 5.0, 5.0],
+                [350, 300, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电电流异常",
+            "levels_comment": "配置格式 [触发阈值(A), 释放阈值(A), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [20, 15, 10.0, 5.0],
+                [30, 25, 10.0, 5.0],
+                [40, 3276.8, 10.0, 5.0],
+                [50, 3276.8, 10.0, 5.0]
+            ]
+        }, {
+            "name": "SOC过高",
+            "levels_comment": "配置格式 [触发阈值(1%), 释放阈值(1%), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [101, 99, 5.0, 5.0],
+                [102, 100, 5.0, 5.0],
+                [105, 102, 5.0, 5.0],
+                [110, 105, 5.0, 5.0]
+            ]
+        }, {
+            "name": "SOC过低",
+            "levels_comment": "配置格式 [触发阈值(1%), 释放阈值(1%), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [15, 20, 5.0, 5.0],
+                [10, 15, 5.0, 5.0],
+                [5, 10, 5.0, 5.0],
+                [0, 5, 5.0, 5.0]
+            ]
+        }, {
+            "name": "绝缘漏电",
+            "levels_comment": "配置格式 [触发阈值(Ω/v), 释放阈值(Ω/v), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [500, 800, 5.0, 5.0],
+                [300, 500, 5.0, 5.0],
+                [100, 300, 5.0, 5.0],
+                [50, 100, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电加热高温",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [50, 40, 5.0, 5.0],
+                [55, 50, 5.0, 5.0],
+                [60, 55, 5.0, 5.0],
+                [65, 60, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电加热高温",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [50, 40, 5.0, 5.0],
+                [55, 50, 5.0, 5.0],
+                [60, 55, 5.0, 5.0],
+                [65, 60, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电加热温差",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [15, 12, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [25, 20, 5.0, 5.0],
+                [30, 25, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电加热温差",
+            "levels_comment": "配置格式 [触发阈值(℃), 释放阈值(℃), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [15, 12, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [25, 20, 5.0, 5.0],
+                [30, 25, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电加热超时",
+            "levels_comment": "配置格式 [加热超时(minute), 加热超时(minute), 0, 0]",
+            "levels":[
+                [120, 120, 0, 0],
+                [120, 120, 0, 0],
+                [120, 120, 0, 0],
+                [120, 120, 0, 0]
+            ]
+        }, {
+            "name": "放电加热超时",
+            "levels_comment": "配置格式 [加热超时(minute), 加热超时(minute), 0, 0]",
+            "levels":[
+                [120, 120, 0, 0],
+                [120, 120, 0, 0],
+                [120, 120, 0, 0],
+                [120, 120, 0, 0]
+            ]
+        }, {
+            "name": "充电加热过流",
+            "levels_comment": "配置格式 [触发阈值(A), 释放阈值(A), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [20, 15, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [20, 15, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电加热过流",
+            "levels_comment": "配置格式 [触发阈值(A), 释放阈值(A), 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [20, 15, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [20, 15, 5.0, 5.0]
+            ]
+        }, {
+            "name": "SOC跳变",
+            "levels_comment": "配置格式 [触发阈值, 释放阈值, 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [60, 60, 0.01, 0.01]
+            ]
+        }, {
+            "name": "供电电压过低",
+            "levels_comment": "配置格式 [触发阈值, 释放阈值, 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [9.0, 9.5, 5.0, 5.0],
+                [8.0, 8.5, 5.0, 5.0],
+                [7.0, 7.5, 5.0, 5.0],
+                [6.5, 7.0, 5.0, 5.0]
+            ]
+        }, {
+            "name": "供电电压过高",
+            "levels_comment": "配置格式 [触发阈值, 释放阈值, 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [33.0, 32.0, 5.0, 5.0],
+                [34.0, 33.0, 5.0, 5.0],
+                [35.0, 34.0, 5.0, 5.0],
+                [36.5, 35.0, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电极柱高温",
+            "levels_comment": "配置格式 [触发阈值, 释放阈值, 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [60, 50, 5.0, 5.0],
+                [65, 60, 5.0, 5.0],
+                [70, 65, 5.0, 5.0],
+                [75, 70, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电极柱高温",
+            "levels_comment": "配置格式 [触发阈值, 释放阈值, 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [60, 50, 5.0, 5.0],
+                [65, 60, 5.0, 5.0],
+                [70, 65, 5.0, 5.0],
+                [75, 70, 5.0, 5.0]
+            ]
+        }, {
+            "name": "充电极柱温差",
+            "levels_comment": "配置格式 [触发阈值, 释放阈值, 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [15, 12, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [25, 20, 5.0, 5.0],
+                [30, 25, 5.0, 5.0]
+            ]
+        }, {
+            "name": "放电极柱温差",
+            "levels_comment": "配置格式 [触发阈值, 释放阈值, 触发持续时间(s), 释放持续时间(s)]",
+            "levels":[
+                [15, 12, 5.0, 5.0],
+                [20, 15, 5.0, 5.0],
+                [25, 20, 5.0, 5.0],
+                [30, 25, 5.0, 5.0]
+            ]
+        }
+    ],
+
+    "SocEfficiency": {
+        "name": "SOC效率因子",
+        "chargeIntegralEfficiency": 100,
+        "dischargeIntegralEfficiency": 100,
+
+        "chargeIntegralEfficiency_comment":"充电效率因子, 单位1%",
+        "dischargeIntegralEfficiency_comment":"放电效率因子, 单位1%"
+    },
+
+    "SocCalibParam": {
+        "name": "SOC校准参数",
+        "capHighCalibAverageVolt": 3400,
+        "capLowCalibAverageVolt": 3100,
+        "capLowCalibSoc": 10,
+        "capLowCalibDelay": 60,
+
+        "capHighCalibAverageVolt_comment": "过充容量校正平均电压阈值, 单位mv",
+        "capLowCalibAverageVolt_comment": "过放容量校正平均电压阈值, 单位mv",
+        "capLowCalibSoc_comment": "过放容量校正SOC阈值, 单位1%",
+        "capLowCalibDelay_comment": "过放容量校正延时, 单位秒"
+    },
+    "ChargeParam": [
+        {
+            "name": "直流快充",
+            "chargeTotalVoltMax":131.4,
+            "chargeCurrentMin": 3,
+            "fullChargeRelTotalVolt": 127.8,
+
+            "chargeTotalVoltMax_comment": "最高允许充电总压, v",
+            "chargeCurrentMax_comment": "最高允许充电电流, A",
+            "chargeCurrentMin_comment": "最小允许充电电流(截止充电电流), A",
+            "fullChargeRelTotalVolt_comment": "满充释放总压, v"
+        },
+        {
+            "name": "交流慢充",
+            "chargeTotalVoltMax":131.4,
+            "chargeCurrentMin": 3,
+            "fullChargeRelTotalVolt": 127.8,
+
+            "chargeTotalVoltMax_comment": "最高允许充电总压, v",
+            "chargeCurrentMax_comment": "最高允许充电电流, A",
+            "chargeCurrentMin_comment": "最小允许充电电流(截止充电电流), A",
+            "fullChargeRelTotalVolt_comment": "满充释放总压, v"
+        }
+    ],
+
+    "TemperatureMParam": [
+        {
+            "name": "充电加热",
+            "temperatureOn": 0,
+            "deltaTemperatureOn": 10,
+            "temperatureOnDelay": 10,
+            "deltaTemperatureOnDelay": 10,
+            "temperatureOff": 5,
+            "deltaTemperatureOff": 5,
+            "temperatureOffDelay": 10,
+            "deltaTemperatureOffDelay": 10,
+
+            "temperatureOn_comment": "开启温度, ℃",
+            "deltaTemperatureOn_comment": "开启温差,℃",
+            "temperatureOnDelay_comment": "开启温度延时, 秒",
+            "deltaTemperatureOnDelay_comment": "开启温差延时, 秒",
+            "temperatureOff_comment": "关闭温度, ℃",
+            "deltaTemperatureOff_comment": "关闭温差,℃",
+            "temperatureOffDelay_comment": "关闭温度延时, 秒",
+            "deltaTemperatureOffDelay_comment": "关闭温差延时, 秒"
+        },
+        {
+            "name": "放电加热",
+            "temperatureOn": 0,
+            "deltaTemperatureOn": 10,
+            "temperatureOnDelay": 10,
+            "deltaTemperatureOnDelay": 10,
+            "temperatureOff": 5,
+            "deltaTemperatureOff": 5,
+            "temperatureOffDelay": 10,
+            "deltaTemperatureOffDelay": 10,
+
+            "temperatureOn_comment": "开启温度, ℃",
+            "deltaTemperatureOn_comment": "开启温差,℃",
+            "temperatureOnDelay_comment": "开启温度延时, 秒",
+            "deltaTemperatureOnDelay_comment": "开启温差延时, 秒",
+            "temperatureOff_comment": "关闭温度, ℃",
+            "deltaTemperatureOff_comment": "关闭温差,℃",
+            "temperatureOffDelay_comment": "关闭温度延时, 秒",
+            "deltaTemperatureOffDelay_comment": "关闭温差延时, 秒"
+        },
+
+        {
+            "name": "充电制冷",
+            "temperatureOn": 40,
+            "deltaTemperatureOn": 10,
+            "temperatureOnDelay": 10,
+            "deltaTemperatureOnDelay": 10,
+            "temperatureOff": 35,
+            "deltaTemperatureOff": 5,
+            "temperatureOffDelay": 10,
+            "deltaTemperatureOffDelay": 10,
+
+            "temperatureOn_comment": "开启温度, ℃",
+            "deltaTemperatureOn_comment": "开启温差,℃",
+            "temperatureOnDelay_comment": "开启温度延时, 秒",
+            "deltaTemperatureOnDelay_comment": "开启温差延时, 秒",
+            "temperatureOff_comment": "关闭温度, ℃",
+            "deltaTemperatureOff_comment": "关闭温差,℃",
+            "temperatureOffDelay_comment": "关闭温度延时, 秒",
+            "deltaTemperatureOffDelay_comment": "关闭温差延时, 秒"
+        },
+        {
+            "name": "放电制冷",
+            "temperatureOn": 40,
+            "deltaTemperatureOn": 10,
+            "temperatureOnDelay": 10,
+            "deltaTemperatureOnDelay": 10,
+            "temperatureOff": 35,
+            "deltaTemperatureOff": 5,
+            "temperatureOffDelay": 10,
+            "deltaTemperatureOffDelay": 10,
+
+            "temperatureOn_comment": "开启温度, ℃",
+            "deltaTemperatureOn_comment": "开启温差,℃",
+            "temperatureOnDelay_comment": "开启温度延时, 秒",
+            "deltaTemperatureOnDelay_comment": "开启温差延时, 秒",
+            "temperatureOff_comment": "关闭温度, ℃",
+            "deltaTemperatureOff_comment": "关闭温差,℃",
+            "temperatureOffDelay_comment": "关闭温度延时, 秒",
+            "deltaTemperatureOffDelay_comment": "关闭温差延时, 秒"
+        },
+        {
+            "name": "热失控",
+            "limitTemperature": 65,
+            "deltaTemperature": 20,
+            "temperatureRise": 2,
+            "temperatureRiseConditionDelay": 5,
+            "temperatureRiseValidDelay": 180,
+            "voltageDrop": 25,
+            "voltageDropConditionDelay": 5,
+            "voltageDropValidDelay": 180,
+
+            "limitTemperature_comment": "触发温度, ℃",
+            "deltaTemperature_comment": "触发温差, ℃",
+            "temperatureRise_comment": "触发温升, ℃/s",
+            "temperatureRiseConditionDelay_comment": "触发温升延时, 秒",
+            "temperatureRiseValidDelay_comment": "温升生效时间, 秒",
+            "voltageDrop_comment": "单体压降, 单位1%/s",
+            "voltageDropConditionDelay_comment": "触发压降延时, 秒",
+            "voltageDropValidDelay_comment": "压降生效时间, 秒"
+        }
+    ]
+}
